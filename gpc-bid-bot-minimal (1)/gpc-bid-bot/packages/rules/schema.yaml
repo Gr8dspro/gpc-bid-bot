@@ -1,0 +1,7 @@
+include: ["micro purchase","RFQ","quotation","purchase card","P-Card","credit card","Visa/MC accepted"]
+exclude: ["OEM only","exact brand","no substitutes","ITAR","telecom","router","server","medical","hazardous","lithium","Section 889","factory certification","calibration certificate"]
+thresholds:
+  max_ship_days: 10
+  min_gross_margin_bps: 1500
+  min_budget_cents: 30000
+  require_card_hint: true
